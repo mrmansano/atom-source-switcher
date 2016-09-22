@@ -1,19 +1,18 @@
 {
-  "name": "atom-source-switcher",
-  "main": "./lib/atom-source-switcher",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
-  "activationCommands": {
-    "atom-workspace": "atom-source-switcher:toggle"
-  },
-  "repository": "https://github.com/atom/atom-source-switcher",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {
-    "glob": ">=7.1.0"
-  }
+    "name": "atom-source-switcher",
+    "main": "./lib/atom-source-switcher",
+    "version": "0.0.1",
+    "description": "An atom package to add the switch C/C++ header to source or source to header functionality",
+    "keywords": [],
+    "activationCommands": {
+        "atom-workspace": "atom-source-switcher:toggle"
+    },
+    "repository": "https://github.com/atom/atom-source-switcher",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {
+        "glob": ">=7.1.0"
+    }
 }
